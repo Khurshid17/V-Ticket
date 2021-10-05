@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -28,4 +31,16 @@ img {
     font-size: 60px;
     border-radius: 10px;
     margin-top: 20px;
+}
+
+@media (max-width: 595px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 595px) {
+    .text {
+        width: 100%;
+    }
 }
